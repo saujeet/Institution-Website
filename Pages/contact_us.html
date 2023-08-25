@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Saujeet Sarkar">
+    <meta name="description" content="This is my first project to create a webpage.">
+    <title>Peerless IT</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/dropdown.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="header">
+            <img class="logo-img" src="../Styles/logo_1.png" alt="logo">
+            <h1 id="logo_text">Peerless IT</h1>
+        </div>
+        <ul class="dropdown-list">
+            <li><a href="../Pages/index.html">Home</a></li>
+            <li class="dropdown"><a class="dropbtn" href="../Pages/about_us.html">About Us</a>
+                <div class="dropdown-content">
+                    <a href="#">Why This?</a>
+                    <a href="#">Founders</a>
+                    <a href="#">Team</a>
+                    <a href="#">Alumni</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropbtn" href="../Pages/courses.html">Courses</a></li>
+            <li><a href="../Pages/centers.html">Centers</a></li>
+            <li><a href="../Pages/contact_us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="body_container">
+            <div class="course-heading">
+                <h1 class="course-heading-title">Contact Us</h1>
+            </div>
+            <div class="page-divide">
+                <div class="left-column">
+                    <form>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="name" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="name" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="name" placeholder="Your Phone Number">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="location">Location</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="name" placeholder="Location">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="message">Message</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="message" name="message" placeholder="Write Something"
+                                    style="height: 200px;"></textarea>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="right-column">
+                    <div class="objective">
+                        <h2>Contact Info</h2>
+                        <h3><img class="icon" src="../Styles/phone.png">+91 9*******01</h3>
+                        <br>
+                        <p><img class="icon" src="../Styles/address.png">Office No. 10 & 11, 5th Floor, Ratan CHS Ltd,
+                            Opp- Pantaloons, S.V. Road, Borivali West,
+                            Mumbai, Maharashtra 400092</p>
+                        <br>
+                        <p><img class="icon" src="../Styles/email.png"> info@peer-it.co.in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h2>Peerless IT</h2>
+        <p>Office No. 10 & 11, 5th Floor, Ratan CHS Ltd, Opp- Pantaloons, S.V. Road, Borivali West, Mumbai,
+            Maharashtra
+            400092.</p>
+        <p>Phone: +91 91360 09911</p>
+        <br><br>
+        <p>Copyright © 2023 Peerless IT | Powered by Some Enterprises Pvt. Ltd.</p>
+    </footer>
+</body>
+
+</html>
